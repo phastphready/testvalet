@@ -18,3 +18,4 @@ Route::get('/about', function () {
 });
 
 Route::get('/', 'PagesController@home');
+# found my spelling error in route
