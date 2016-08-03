@@ -36,9 +36,10 @@
         </style>
     </head>
     <body>
-       @foreach ($people as $person)
-        <li> {{ $person }} </li>
-        @endforeach
-      
+        <div class="container">
+            <div class="content">
+                <div class="title">Laravel Development About</div>
+            </div>
+        </div>
     </body>
 </html>
